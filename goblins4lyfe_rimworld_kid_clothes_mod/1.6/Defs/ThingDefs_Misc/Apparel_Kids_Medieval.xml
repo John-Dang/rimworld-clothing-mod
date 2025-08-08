@@ -3,7 +3,7 @@
     <!-- ##### Medieval ##### -->
     <!-- +++++ Kid Squire Armor +++++ -->
 	<ThingDef ParentName="ArmorSmithableBase">
-    <defName>Apparel_Goblins4Lyfe_KidPlateArmor</defName>
+    <defName>Apparel_KidPlateArmor</defName>
     <label>kid squire armor</label>
     <description>Plate armor and a tabard paired with a thick gambeson offer any young squire near full body protection.</description>
     <possessionCount>1</possessionCount>
@@ -16,7 +16,7 @@
       <displayPriority>250</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/KidPlateArmor/KidPlateArmor</texPath>
+      <texPath>Things/Apparel/KidPlateArmor/KidPlateArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <stuffCategories>
@@ -55,7 +55,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/KidPlateArmor/KidPlateArmor</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/KidPlateArmor/KidPlateArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -87,7 +87,7 @@
   </ThingDef>
 
     <!-- +++++ Kid Formal Shirt +++++ -->
-	<ThingDef Name="Apparel_Goblins4Lyfe_KidShirtRoyalTier2Base" ParentName="ChildApparelMakeableBase" Abstract="True">
+	<ThingDef Name="Apparel_KidShirtRoyalTier2Base" ParentName="ChildApparelMakeableBase" Abstract="True">
     <recipeMaker>
       <researchPrerequisite>NobleApparel</researchPrerequisite>
       <displayPriority>225</displayPriority>
@@ -129,12 +129,12 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 
-  <ThingDef ParentName="Apparel_Goblins4Lyfe_KidShirtRoyalTier2Base">
-    <defName>Apparel_Goblins4Lyfe_KidShirtRuffle</defName>
+  <ThingDef ParentName="Apparel_KidShirtRoyalTier2Base">
+    <defName>Apparel_KidShirtRuffle</defName>
     <label>kid formal shirt</label>
     <description>A decorated formal shirt with buttons. Mostly worn by the children of colonial governors in the empire.</description>
     <graphicData>
-      <texPath>Apparel/KidShirtRuffle/KidShirtRuffle</texPath>
+      <texPath>Things/Apparel/KidShirtRuffle/KidShirtRuffle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <apparel>
@@ -142,7 +142,7 @@
         <li>Arms</li>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/KidShirtRuffle/KidShirtRuffle</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/KidShirtRuffle/KidShirtRuffle</wornGraphicPath>
     </apparel>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
@@ -151,7 +151,7 @@
   </ThingDef>
 
     <!-- +++++ Kid Formal Vest +++++ -->
-	<ThingDef Name="Apparel_Goblins4Lyfe_KidVestRoyalTier5Base" ParentName="ChildApparelMakeableBase" Abstract="True">
+	<ThingDef Name="Apparel_KidVestRoyalTier5Base" ParentName="ChildApparelMakeableBase" Abstract="True">
     <recipeMaker>
       <researchPrerequisite>NobleApparel</researchPrerequisite>
       <displayPriority>230</displayPriority>
@@ -191,12 +191,12 @@
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 
-  <ThingDef ParentName="Apparel_Goblins4Lyfe_KidVestRoyalTier5Base">
-    <defName>Apparel_Goblins4Lyfe_KidVestRoyal</defName>
+  <ThingDef ParentName="Apparel_KidVestRoyalTier5Base">
+    <defName>Apparel_KidVestRoyal</defName>
     <label>kid formal vest</label>
     <description>A vest embroidered with complex decorative designs. Appropriate for both young ladies and gentlemen of the court.</description>
     <graphicData>
-      <texPath>Apparel/KidVestRoyal/KidVestRoyal</texPath>
+      <texPath>Things/Apparel/KidVestRoyal/KidVestRoyal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.90</drawSize>
     </graphicData>
@@ -205,7 +205,7 @@
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>Apparel/KidVestRoyal/KidVestRoyal</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/KidVestRoyal/KidVestRoyal</wornGraphicPath>
     </apparel>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
@@ -214,7 +214,7 @@
 
 <!-- +++++ Kid Prestige Robe +++++ -->
 <ThingDef ParentName="ChildApparelMakeableBase">
-    <defName>Apparel_Goblins4Lyfe_KidRobeRoyal</defName>
+    <defName>Apparel_KidRobeRoyal</defName>
     <label>kid prestige robe</label>
     <description>A long, child-sized robe embroidered with complex decorative designs. Fit for a prince or princess waiting to ascend the throne.</description>
     <recipeMaker>
@@ -222,7 +222,7 @@
       <displayPriority>245</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/KidRoyalRobe/KidRoyalRobe</texPath>
+      <texPath>Things/Apparel/KidRoyalRobe/KidRoyalRobe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -254,7 +254,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/KidRoyalRobe/KidRoyalRobe</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/KidRoyalRobe/KidRoyalRobe</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -273,7 +273,7 @@
 
 <!-- +++++ Kid Coronet +++++ -->
 <ThingDef ParentName="ChildApparelMakeableBase">
-    <defName>Apparel_Goblins4Lyfe_KidCoronet</defName>
+    <defName>Apparel_KidCoronet</defName>
     <label>kid coronet</label>
     <description>A small crown-like piece of headwear made of metal. The mark of any worthy heir to the throne.</description>
     <smeltable>true</smeltable>
@@ -303,7 +303,7 @@
       <displayPriority>220</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/KidCoronet/KidCoronet</texPath>
+      <texPath>Things/Headgear/KidCoronet/KidCoronet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.8, 0.8)</drawSize>
     </graphicData>
@@ -329,7 +329,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
-      <wornGraphicPath>Apparel/KidCoronet/KidCoronet</wornGraphicPath>
+      <wornGraphicPath>Things/Headgear/KidCoronet/KidCoronet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -349,7 +349,7 @@
 
 <!-- +++++ Kid Crown +++++ -->
 <ThingDef ParentName="ChildApparelMakeableBase">
-    <defName>Apparel_Goblins4Lyfe_KidCrown</defName>
+    <defName>Apparel_KidCrown</defName>
     <label>kid crown</label>
     <description>A crown of metal with an elaborate design. Even most nobles consider a crown of this complexity for a child to be utterly wasteful.</description>
     <smeltable>true</smeltable>
@@ -379,7 +379,7 @@
       <displayPriority>230</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/KidCrown/KidCrown</texPath>
+      <texPath>Things/Headgear/KidCrown/KidCrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
@@ -404,7 +404,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
-      <wornGraphicPath>Apparel/KidCrown/KidCrown</wornGraphicPath>
+      <wornGraphicPath>Things/Headgear/KidCrown/KidCrown</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -424,7 +424,7 @@
 
 <!-- +++++ Kid Stellic Crown +++++ -->
 <ThingDef ParentName="ChildApparelMakeableBase">
-    <defName>Apparel_Goblins4Lyfe_KidCrownStellic</defName>
+    <defName>Apparel_KidCrownStellic</defName>
     <label>kid stellic crown</label>
     <description>A grand crown of metal with an elaborate, overbearing design. An incredibly wasteful use of materials, and too heavy to comfortably sit on a child's head.</description>
     <smeltable>true</smeltable>
@@ -432,7 +432,7 @@
       <li>HeadgearNoble</li>
     </thingCategories>
     <graphicData>
-      <texPath>Apparel/KidCrownStellic/KidCrownStellic</texPath>
+      <texPath>Things/Headgear/KidCrownStellic/KidCrownStellic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
@@ -454,7 +454,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
-      <wornGraphicPath>Apparel/KidCrownStellic/KidCrownStellic</wornGraphicPath>
+      <wornGraphicPath>Things/Headgear/KidCrownStellic/KidCrownStellic</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
