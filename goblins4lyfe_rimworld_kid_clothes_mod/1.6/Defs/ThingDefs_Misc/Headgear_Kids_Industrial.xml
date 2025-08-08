@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ##### Industrial ##### -->
+	<!-- +++++ Kid Flak Helmet +++++ -->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+ <defName>Apparel_Goblins4Lyfe_AdvancedKidHelmet</defName>
+    <label>kid flak helmet</label>
+    <description>A lightweight combat helmet with a complex design, reinforced with plasteel. For the especially valuable conscript.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <displayPriority>205</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KidFlakHelmet/KidFlakHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.4</uiIconScale>
+    <statBases>
+      <WorkToMake>6400</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.6</Mass>
+      <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Plasteel>5</Plasteel>
+    </costList>
+    <apparel>
+    <developmentalStageFilter>Child</developmentalStageFilter>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidFlakHelmet/KidFlakHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+	<!-- +++++ Kid Foil Helmet +++++ -->
+	<ThingDef ParentName="HatBase">
+    <defName>Apparel_Goblins4Lyfe_KidPsychicFoilHelmet</defName>
+    <label>kid psychic foil helmet</label>
+    <description>A thin helmet containing finely-tuned sheets of psychically-absorptive foil. To protect your children from government psycasters.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KidPsychicFoilHelmet/KidPsychicFoilHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.3</uiIconScale>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>250</MarketValue>
+      <Mass>0.5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivity>-0.90</PsychicSensitivity>
+    </equippedStatOffsets>
+    <generateCommonality>0.1</generateCommonality>
+    <smeltable>false</smeltable>
+    <apparel>
+	<developmentalStageFilter>Child</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPsychicFoilHelmet/KidPsychicFoilHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>SpacerMilitary</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>Clothing</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+	<!-- +++++ Kid Eltex Helmet +++++ -->
+  <ThingDef ParentName="PsychicApparelBase">
+    <defName>Apparel_Goblins4Lyfe_KidPsyfocusHelmet</defName>
+    <label>kid eltex helmet</label>
+    <description>A small lightweight helmet designed for psychic focusing. While it provides little physical protection, its special materials enhance the wearer's psychic sensitivity and dissipate neural heat.</description>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KidEltexHelmet/KidEltexHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.15</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.066</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <apparel>
+	<developmentalStageFilter>Child</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidEltexHelmet/KidEltexHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <only>(57,87,93)</only>
+        </li>
+        <li>
+          <only>(51,27,49)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+	<!-- +++++ Kid Eltex Skullcap +++++ -->
+	  <ThingDef ParentName="PsychicApparelBase">
+    <defName>Apparel_Goblins4Lyfe_KidEltexSkullcap</defName>
+    <label>kid eltex skullcap</label>
+    <description>A child-sized tight skullcap designed for psychic focusing. It provides no physical protection, but its special materials enhance the wearer's psychic sensitivity and dissipate neural heat.</description>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KidEltexSkullcap/KidEltexSkullcap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.4</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.091</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <apparel>
+	<developmentalStageFilter>Child</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidEltexSkullcap/KidEltexSkullcap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <only>(90,90,90)</only>
+        </li>
+        <li>
+          <only>(135,135,135)</only>
+        </li>
+        <li>
+          <only>(160,160,160)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+	<!-- +++++ Kid Gunlink +++++ -->
+	<ThingDef ParentName="ApparelArmorHelmetReconBase">
+    <defName>Apparel_Goblins4Lyfe_KidGunlink</defName>
+    <label>learnlink</label>
+    <description>A learning assistant that helps the user to learn. It analyzes targets using infrared, visible, and millimeter-wave electromagnetic sensors. An onboard computer displays educational facts on a retinal projection. It offers no protection at all.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KidGunlink/KidGunlink</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedStatOffsets>
+      <LearningRateFactor>0.5</LearningRateFactor>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0</VacuumResistance>
+    </equippedStatOffsets>
+    <statBases>
+      <ArmorRating_Sharp>0</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <Insulation_Cold>0</Insulation_Cold>
+      <Insulation_Heat>0</Insulation_Heat>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>Gunlink</researchPrerequisite>
+      <displayPriority>400</displayPriority>
+    </recipeMaker>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>5</Plasteel>
+    </costList>
+    <apparel>
+	<developmentalStageFilter>Child</developmentalStageFilter>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidGunlink/KidGunlink</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups Inherit="False">
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <tags Inherit="False">
+        <li>Gunlink</li>
+      </tags>
+      <defaultOutfitTags Inherit="False">
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>Clothing</li>
+    </tradeTags>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <comps Inherit="False">
+      <li Class="CompProperties_Biocodable"/>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable" />
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+	<!-- +++++ Kid Slicecap +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_Goblins4Lyfe_KidSlicecap</defName>
+    <label>kid slicecap</label>
+    <description>A hard cap that partly covers the wearer's scalp. Most children view this headpiece as uncomfortable and silly.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KidSliceCap/KidSliceCap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1600</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <EquipDelay>1.5</EquipDelay>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>10</costStuffCount>
+    <apparel>
+    <developmentalStageFilter>Child</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPaths>
+        <li>Things/Pawn/Humanlike/Apparel/SliceCap/SliceCapA</li>
+        <li>Things/Pawn/Humanlike/Apparel/SliceCap/SliceCapB</li>
+        <li>Things/Pawn/Humanlike/Apparel/SliceCap/SliceCapC</li>
+      </wornGraphicPaths>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <ideoDesireDisallowedFactionCategoryTags><li>Tribal</li></ideoDesireDisallowedFactionCategoryTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <displayPriority>140</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+	<!-- +++++ Kid Tailcap +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_Goblins4Lyfe_KidTailcap</defName>
+    <label>kid tailcap</label>
+    <description>A thick cap made from animal skin with a wide brim. Beloved by youth scouting organizations as a symbol of self reliance and authority.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KidTailcap/KidTailcap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1120</WorkToMake>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <generateCommonality>0.5</generateCommonality>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>150</displayPriority>
+    </recipeMaker>
+    <apparel>
+    <developmentalStageFilter>Child</developmentalStageFilter>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidTailcap/KidTailcap</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+	<!-- +++++ Kid Blindfold +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
+    <defName>Apparel_Goblins4Lyfe_KidBlindfold</defName>
+    <label>kid blindfold</label>
+    <description>A long strip of cloth that is wrapped over the eyes to block vision. Children have a habit of peeking out of it, even when told not to.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/KidBlindfold/KidBlindfold</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8, 0.8)</drawSize>
+    </graphicData>
+    <costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>960</WorkToMake>
+      <Mass>0.035</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <memePrerequisitesAny><li>Blindsight</li></memePrerequisitesAny>
+    </recipeMaker>
+    <apparel>
+    <developmentalStageFilter>Child</developmentalStageFilter>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Eyes</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidBlindfold/KidBlindfold</wornGraphicPath>
+      <layers>
+        <li>EyeCover</li>
+      </layers>
+      <drawData>
+        <defaultData>
+          <layer>61</layer>
+        </defaultData>
+      </drawData>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <blocksVision>true</blocksVision>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>Blindfold</hediff>
+        <part>Head</part>
+      </li>
+    </comps>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+</Defs>

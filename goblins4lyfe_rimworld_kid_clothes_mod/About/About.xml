@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Kid Clothes Expanded</name>
+	<author>Goblins4Lyfe</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>KidClothesExpanded.Goblins4Lyfe</packageId>
+	<loadAfter>
+  <li>ludeon.rimworld.odyssey</li>
+  <li>ludeon.rimworld.anomaly</li>
+  <li>ludeon.rimworld.biotech</li>
+  <li>ludeon.rimworld.ideology</li>
+  <li>ludeon.rimworld.royalty</li>
+</loadAfter>
+	<description>
+Kid Clothes Expanded is about giving child pawns more things to wear besides the limited vanilla items. It should give the kids more personality as they grow up, or even make them more useful if you're going the child soldier route.
+
+Armor and clothing is distributed among existing technologies, the kid clothes will be discovered alongside the adult versions of the clothes in your research tree.
+
+This mod will also contain items from DLCs, which includes Royalty, Ideology, and Biotech. Odyssey doesn't have any items to add, as it only has the vacsuit and helmet. Old power armor helmets are intended to be worn by kids now too.
+	</description>
+</ModMetaData>
