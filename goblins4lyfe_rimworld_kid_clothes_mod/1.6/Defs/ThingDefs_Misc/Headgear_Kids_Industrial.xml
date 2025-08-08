@@ -16,7 +16,7 @@
       <displayPriority>205</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidFlakHelmet/KidFlakHelmet</texPath>
+      <texPath>Apparel/KidFlakHelmet/KidFlakHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.4</uiIconScale>
@@ -43,7 +43,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidFlakHelmet/KidFlakHelmet</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidFlakHelmet/KidFlakHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -85,7 +85,7 @@
     <label>kid psychic foil helmet</label>
     <description>A thin helmet containing finely-tuned sheets of psychically-absorptive foil. To protect your children from government psycasters.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidPsychicFoilHelmet/KidPsychicFoilHelmet</texPath>
+      <texPath>Apparel/KidPsychicFoilHelmet/KidPsychicFoilHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.3</uiIconScale>
@@ -111,7 +111,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPsychicFoilHelmet/KidPsychicFoilHelmet</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidPsychicFoilHelmet/KidPsychicFoilHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -158,7 +158,7 @@
       <li>Headgear</li>
     </thingCategories>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidEltexHelmet/KidEltexHelmet</texPath>
+      <texPath>Apparel/KidEltexHelmet/KidEltexHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -181,7 +181,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidEltexHelmet/KidEltexHelmet</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidEltexHelmet/KidEltexHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -209,7 +209,7 @@
       <li>Headgear</li>
     </thingCategories>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidEltexSkullcap/KidEltexSkullcap</texPath>
+      <texPath>Apparel/KidEltexSkullcap/KidEltexSkullcap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -227,7 +227,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidEltexSkullcap/KidEltexSkullcap</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidEltexSkullcap/KidEltexSkullcap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -255,7 +255,7 @@
     <label>learnlink</label>
     <description>A learning assistant that helps the user to learn. It analyzes targets using infrared, visible, and millimeter-wave electromagnetic sensors. An onboard computer displays educational facts on a retinal projection. It offers no protection at all.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidGunlink/KidGunlink</texPath>
+      <texPath>Apparel/KidGunlink/KidGunlink</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedStatOffsets>
@@ -279,7 +279,7 @@
     </costList>
     <apparel>
 	<developmentalStageFilter>Child</developmentalStageFilter>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidGunlink/KidGunlink</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidGunlink/KidGunlink</wornGraphicPath>
       <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -315,7 +315,7 @@
     <label>kid slicecap</label>
     <description>A hard cap that partly covers the wearer's scalp. Most children view this headpiece as uncomfortable and silly.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidSliceCap/KidSliceCap</texPath>
+      <texPath>Apparel/KidSliceCap/KidSliceCap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -338,9 +338,9 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPaths>
-        <li>Things/Pawn/Humanlike/Apparel/SliceCap/SliceCapA</li>
-        <li>Things/Pawn/Humanlike/Apparel/SliceCap/SliceCapB</li>
-        <li>Things/Pawn/Humanlike/Apparel/SliceCap/SliceCapC</li>
+        <li>Apparel/SliceCap/SliceCapA</li>
+        <li>Apparel/SliceCap/SliceCapB</li>
+        <li>Apparel/SliceCap/SliceCapC</li>
       </wornGraphicPaths>
       <layers>
         <li>Overhead</li>
@@ -363,7 +363,7 @@
     <label>kid tailcap</label>
     <description>A thick cap made from animal skin with a wide brim. Beloved by youth scouting organizations as a symbol of self reliance and authority.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidTailcap/KidTailcap</texPath>
+      <texPath>Apparel/KidTailcap/KidTailcap</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
@@ -392,7 +392,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidTailcap/KidTailcap</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidTailcap/KidTailcap</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -432,7 +432,7 @@
     <label>kid blindfold</label>
     <description>A long strip of cloth that is wrapped over the eyes to block vision. Children have a habit of peeking out of it, even when told not to.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidBlindfold/KidBlindfold</texPath>
+      <texPath>Apparel/KidBlindfold/KidBlindfold</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.8, 0.8)</drawSize>
     </graphicData>
@@ -464,7 +464,7 @@
       <bodyPartGroups>
         <li>Eyes</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidBlindfold/KidBlindfold</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidBlindfold/KidBlindfold</wornGraphicPath>
       <layers>
         <li>EyeCover</li>
       </layers>

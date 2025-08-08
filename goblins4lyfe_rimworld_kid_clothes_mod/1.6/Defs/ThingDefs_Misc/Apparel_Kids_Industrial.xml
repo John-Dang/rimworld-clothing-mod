@@ -11,7 +11,7 @@
       <displayPriority>208</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidButtonDownShirt/KidButtonDownShirt</texPath>
+      <texPath>Apparel/KidButtonDownShirt/KidButtonDownShirt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>20</costStuffCount>
@@ -35,7 +35,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidButtonDownShirt/KidButtonDownShirt</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidButtonDownShirt/KidButtonDownShirt</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -64,7 +64,7 @@
       <displayPriority>215</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidDuster/KidDuster</texPath>
+      <texPath>Apparel/KidDuster/KidDuster</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.05</drawSize>
     </graphicData>
@@ -146,7 +146,7 @@
       <displayPriority>210</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidJacket/KidJacket</texPath>
+      <texPath>Apparel/KidJacket/KidJacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
@@ -171,7 +171,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidJacket/KidJacket</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidJacket/KidJacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -228,7 +228,7 @@
       <displayPriority>220</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidFlakVest/KidFlakVest</texPath>
+      <texPath>Apparel/KidFlakVest/KidFlakVest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.90</drawSize>
     </graphicData>
@@ -260,7 +260,7 @@
         <li>Torso</li>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidFlakVest/KidFlakVest</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidFlakVest/KidFlakVest</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -304,7 +304,7 @@
       <displayPriority>230</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidFlakPants/KidFlakPants</texPath>
+      <texPath>Apparel/KidFlakPants/KidFlakPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.90</drawSize>
     </graphicData>
@@ -336,7 +336,7 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidFlakPants/KidFlakPants</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidFlakPants/KidFlakPants</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
         <li>Middle</li>
@@ -377,7 +377,7 @@
       <displayPriority>225</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidFlakJacket/KidFlakJacket</texPath>
+      <texPath>Apparel/KidFlakJacket/KidFlakJacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.00</drawSize>
     </graphicData>
@@ -412,7 +412,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</wornGraphicPath>
+      <wornGraphicPath>Apparel/FlakJacket/FlakJacket</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -452,7 +452,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidPowerArmor/KidPowerArmor</texPath>
+      <texPath>Apparel/KidPowerArmor/KidPowerArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>2</generateCommonality>
@@ -494,7 +494,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPowerArmor/KidPowerArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidPowerArmor/KidPowerArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -563,7 +563,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidReconArmor/KidReconArmor</texPath>
+      <texPath>Apparel/KidReconArmor/KidReconArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>2</generateCommonality>
@@ -604,7 +604,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidReconArmor/KidReconArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidReconArmor/KidReconArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -666,7 +666,7 @@
     <description>A short cape of rough design. It appears to be a child's blanket, actually.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidCape/KidCape</texPath>
+      <texPath>Apparel/KidCape/KidCape</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.05</drawSize>
     </graphicData>
@@ -695,7 +695,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidCape/KidCape</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidCape/KidCape</wornGraphicPath>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
@@ -721,7 +721,7 @@
     <label>kid robe</label>
     <description>A small, flowing robe without a hood.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidRobe/KidRobe</texPath>
+      <texPath>Apparel/KidRobe/KidRobe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>40</costStuffCount>
@@ -745,7 +745,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidRobe/KidRobe</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidRobe/KidRobe</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -773,7 +773,7 @@
     <label>kid eltex shirt</label>
     <description>A small shirt embedded with special psychic focusing materials. These enhance psychic sensitivity and help dissipate neural heat. The fashionable choice among aspiring wizard apprentices.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidEltexShirt/KidEltexShirt</texPath>
+      <texPath>Apparel/KidEltexShirt/KidEltexShirt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories>
@@ -801,7 +801,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidEltexShirt/KidEltexShirt</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidEltexShirt/KidEltexShirt</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -829,7 +829,7 @@
     <label>kid eltex vest</label>
     <description>A child-sized thin vest embedded with special psychic focusing materials. These enhance psychic sensitivity and help dissipate neural heat.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidEltexVest/KidEltexVest</texPath>
+      <texPath>Apparel/KidEltexVest/KidEltexVest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories>
@@ -858,7 +858,7 @@
         <li>Neck</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidEltexVest/KidEltexVest</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidEltexVest/KidEltexVest</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -883,7 +883,7 @@
     <description>A small robe embedded with special psychic focusing materials. These enhance psychic sensitivity and help dissipate neural heat. Coveted among the elite psycasting apprentices in the empire.</description>
     <label>kid eltex robe</label>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidEltexRobe/KidEltexRobe</texPath>
+      <texPath>Apparel/KidEltexRobe/KidEltexRobe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingCategories>
@@ -914,7 +914,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidEltexRobe/KidEltexRobe</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidEltexRobe/KidEltexRobe</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -940,7 +940,7 @@
     <label>kid prestige recon armor</label>
     <description>A suit of child-sized light partially-powered armor, designed to permit quick movement. Plasteel-weave plates block attacks without compromising mobility, and neuro-memetic assistors in the lower body allow a human to wear the armor and still move easily.\n\nExpensive and beautiful, prestige armor like this is usually made for the children of highly ranked military officers. Embedded eltex threads also enhance the wearer's psychic sensitivity.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidPrestigeReconArmor/KidPrestigeReconArmor</texPath>
+      <texPath>Apparel/KidPrestigeReconArmor/KidPrestigeReconArmor</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <statBases>
@@ -958,7 +958,7 @@
       <tags>
         <li>PrestigeCombatGear</li>
       </tags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPrestigeReconArmor/KidPrestigeReconArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidPrestigeReconArmor/KidPrestigeReconArmor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
     <recipeMaker>
@@ -972,7 +972,7 @@
     <label>kid prestige marine armor</label>
     <description>A suit of powered armor. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow a human to wear the armor and still move easily.\n\nExpensive and beautiful, prestige armor like this is usually made for those destined to become high ranked military officers. Embedded eltex threads also enhance the wearer's psychic sensitivity.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidPrestigeMarineArmor/KidPrestigeMarineArmor</texPath>
+      <texPath>Apparel/KidPrestigeMarineArmor/KidPrestigeMarineArmor</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <statBases>
@@ -990,7 +990,7 @@
       <tags>
         <li>PrestigeCombatGear</li>
       </tags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPrestigeMarineArmor/KidPrestigeMarineArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidPrestigeMarineArmor/KidPrestigeMarineArmor</wornGraphicPath>
       <forceEyesVisibleForRotations>
         <li>1</li>
         <li>2</li>
@@ -1017,7 +1017,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidCataphractArmor/KidCataphractArmor</texPath>
+      <texPath>Apparel/KidCataphractArmor/KidCataphractArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.25</uiIconScale>
@@ -1059,7 +1059,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidCataphractArmor/KidCataphractArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidCataphractArmor/KidCataphractArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -1122,7 +1122,7 @@
     <label>kid prestige cataphract armor</label>
     <description>A suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. But even this does not prevent most from seeing it as an expensive joke.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidPrestigeCataphractArmor/KidPrestigeCataphractArmor</texPath>
+      <texPath>Apparel/KidPrestigeCataphractArmor/KidPrestigeCataphractArmor</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <statBases>
@@ -1140,7 +1140,7 @@
       <tags>
         <li>PrestigeCombatGear</li>
       </tags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPrestigeCataphractArmor/KidPrestigeCataphractArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidPrestigeCataphractArmor/KidPrestigeCataphractArmor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
     <tradeTags>
@@ -1171,12 +1171,12 @@
       <displayPriority>125</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidLocustArmor/KidLocustArmor</texPath>
+      <texPath>Apparel/KidLocustArmor/KidLocustArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <apparel>
       <scoreOffset>4</scoreOffset>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidLocustArmor/KidLocustArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidLocustArmor/KidLocustArmor</wornGraphicPath>
     </apparel>
     <costList>
       <Plasteel>60</Plasteel>
@@ -1231,12 +1231,12 @@
       <ArmorRating_Heat>0.49</ArmorRating_Heat>
     </statBases>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidGrenadierArmor/KidGrenadierArmor</texPath>
+      <texPath>Apparel/KidGrenadierArmor/KidGrenadierArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <apparel>
       <scoreOffset>4</scoreOffset>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidGrenadierArmor/KidGrenadierArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidGrenadierArmor/KidGrenadierArmor</wornGraphicPath>
     </apparel>
     <comps>
       <li Class="CompProperties_ApparelReloadable">
@@ -1304,12 +1304,12 @@
       <Chemfuel>20</Chemfuel>
     </costList>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidPhoenixArmor/KidPhoenixArmor</texPath>
+      <texPath>Apparel/KidPhoenixArmor/KidPhoenixArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <apparel>
       <scoreOffset>4</scoreOffset>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPhoenixArmor/KidPhoenixArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidPhoenixArmor/KidPhoenixArmor</wornGraphicPath>
     </apparel>
     <comps>
       <li Class="CompProperties_ApparelReloadable">
@@ -1378,7 +1378,7 @@
       <displayPriority>530</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidMechlordSuit/KidMechlordSuit</texPath>
+      <texPath>Apparel/KidMechlordSuit/KidMechlordSuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -1406,7 +1406,7 @@
         <li>RoyalTier7</li>
         <li>Mechlord</li>
       </tags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidMechlordSuit/KidMechlordSuit</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidMechlordSuit/KidMechlordSuit</wornGraphicPath>
     </apparel>
     <tradeability>Sellable</tradeability>
     <tradeTags Inherit="False">
@@ -1420,7 +1420,7 @@
     <label>kid heavy bandolier</label>
     <description>A heavy shoulder-belt for keeping spare munitions close at hand. It allows quick access to bullets, grenades, arrows, or whatever the user needs, reducing their weapon's ranged cooldown. Due to its bulk, it can't be worn under other clothing. Children tend to pick up cool rocks or sticks and store them in the bandolier as well.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidHeavyBandolier/KidHeavyBandolier</texPath>
+      <texPath>Apparel/KidHeavyBandolier/KidHeavyBandolier</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -1454,7 +1454,7 @@
         <li>Torso</li>
       </bodyPartGroups>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidHeavyBandolier/KidHeavyBandolier</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidHeavyBandolier/KidHeavyBandolier</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -1480,7 +1480,7 @@
     <label>kid sash</label>
     <description>A long strip of material worn over one shoulder. It offers minimal protection from heat, cold, and attacks. Popular among youth scouting organizations, children add badges and patches to mark their achievements.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidSash/KidSash</texPath>
+      <texPath>Apparel/KidSash/KidSash</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.7</drawSize>
     </graphicData>
@@ -1511,7 +1511,7 @@
         <li>Torso</li>
       </bodyPartGroups>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidSash/KidSash</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidSash/KidSash</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -1541,7 +1541,7 @@
       <displayPriority>210</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidLabCoat/KidLabCoat</texPath>
+      <texPath>Apparel/KidLabCoat/KidLabCoat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
@@ -1569,7 +1569,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidLabCoat/KidLabCoat</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidLabCoat/KidLabCoat</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>

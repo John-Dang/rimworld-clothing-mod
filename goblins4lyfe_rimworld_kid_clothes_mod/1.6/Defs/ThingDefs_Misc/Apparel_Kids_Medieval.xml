@@ -16,7 +16,7 @@
       <displayPriority>250</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidPlateArmor/KidPlateArmor</texPath>
+      <texPath>Apparel/KidPlateArmor/KidPlateArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <stuffCategories>
@@ -55,7 +55,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPlateArmor/KidPlateArmor</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidPlateArmor/KidPlateArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -134,7 +134,7 @@
     <label>kid formal shirt</label>
     <description>A decorated formal shirt with buttons. Mostly worn by the children of colonial governors in the empire.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Goblins4Lyfe_KidShirtRuffle/Goblins4Lyfe_KidShirtRuffle</texPath>
+      <texPath>Apparel/KidShirtRuffle/KidShirtRuffle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <apparel>
@@ -142,7 +142,7 @@
         <li>Arms</li>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidShirtRuffle/KidShirtRuffle</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidShirtRuffle/KidShirtRuffle</wornGraphicPath>
     </apparel>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
@@ -196,7 +196,7 @@
     <label>kid formal vest</label>
     <description>A vest embroidered with complex decorative designs. Appropriate for both young ladies and gentlemen of the court.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidVestRoyal/KidVestRoyal</texPath>
+      <texPath>Apparel/KidVestRoyal/KidVestRoyal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.90</drawSize>
     </graphicData>
@@ -205,7 +205,7 @@
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidVestRoyal/KidVestRoyal</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidVestRoyal/KidVestRoyal</wornGraphicPath>
     </apparel>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
@@ -222,7 +222,7 @@
       <displayPriority>245</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidRoyalRobe/KidRoyalRobe</texPath>
+      <texPath>Apparel/KidRoyalRobe/KidRoyalRobe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -254,7 +254,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidRoyalRobe/KidRoyalRobe</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidRoyalRobe/KidRoyalRobe</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -303,7 +303,7 @@
       <displayPriority>220</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidCoronet/KidCoronet</texPath>
+      <texPath>Apparel/KidCoronet/KidCoronet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.8, 0.8)</drawSize>
     </graphicData>
@@ -329,7 +329,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidCoronet/KidCoronet</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidCoronet/KidCoronet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -379,7 +379,7 @@
       <displayPriority>230</displayPriority>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidCrown/KidCrown</texPath>
+      <texPath>Apparel/KidCrown/KidCrown</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
@@ -404,7 +404,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidCrown/KidCrown</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidCrown/KidCrown</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -432,7 +432,7 @@
       <li>HeadgearNoble</li>
     </thingCategories>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/KidCrownStellic/KidCrownStellic</texPath>
+      <texPath>Apparel/KidCrownStellic/KidCrownStellic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9, 0.9)</drawSize>
     </graphicData>
@@ -454,7 +454,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidCrownStellic/KidCrownStellic</wornGraphicPath>
+      <wornGraphicPath>Apparel/KidCrownStellic/KidCrownStellic</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
