@@ -2,7 +2,7 @@
 <Operation Class="PatchOperationAdd">
 <xpath>Defs/ThingDef[defName="Apparel_KidPants"]/apparel</xpath>
         <value>
-          <wornGraphicPath>Things/Pawn/Humanlike/Apparel/KidPants/KidPants</wornGraphicPath>
+          <wornGraphicPath>Things/Apparel/KidPants/KidPants</wornGraphicPath>
         </value>
 </Operation>
 </Patch>
