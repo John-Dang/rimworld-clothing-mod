@@ -177,7 +177,7 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <layers>
+      <layers Inherit="False">
         <li>Middle</li>
       </layers>
       <tags>
@@ -255,7 +255,7 @@
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/KidRoyalRobe/KidRoyalRobe</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Shell</li>
       </layers>
       <tags>
@@ -330,7 +330,7 @@
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
       <wornGraphicPath>Things/Headgear/KidCoronet/KidCoronet</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Overhead</li>
       </layers>
       <tags>
@@ -405,7 +405,7 @@
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
       <wornGraphicPath>Things/Headgear/KidCrown/KidCrown</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Overhead</li>
       </layers>
       <tags>
@@ -455,7 +455,7 @@
       </bodyPartGroups>
       <parentTagDef>ApparelHead</parentTagDef>
       <wornGraphicPath>Things/Headgear/KidCrownStellic/KidCrownStellic</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Overhead</li>
       </layers>
       <tags>

@@ -94,7 +94,7 @@
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/KidDuster/KidDuster</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Shell</li>
       </layers>
       <tags>
@@ -172,7 +172,7 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/KidJacket/KidJacket</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Shell</li>
       </layers>
       <tags>
@@ -700,7 +700,7 @@
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
       <shellRenderedBehindHead>true</shellRenderedBehindHead>
-      <layers>
+      <layers Inherit="False">
         <li>Shell</li>
       </layers>
       <tags>
@@ -746,7 +746,7 @@
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/KidRobe/KidRobe</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Shell</li>
       </layers>
       <defaultOutfitTags>
@@ -1455,7 +1455,7 @@
       </bodyPartGroups>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <wornGraphicPath>Things/Apparel/KidHeavyBandolier/KidHeavyBandolier</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Shell</li>
       </layers>
       <tags>
@@ -1512,7 +1512,7 @@
       </bodyPartGroups>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <wornGraphicPath>Things/Apparel/KidSash/KidSash</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Middle</li>
       </layers>
       <tags>
@@ -1570,7 +1570,7 @@
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/KidLabCoat/KidLabCoat</wornGraphicPath>
-      <layers>
+      <layers Inherit="False">
         <li>Shell</li>
       </layers>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>

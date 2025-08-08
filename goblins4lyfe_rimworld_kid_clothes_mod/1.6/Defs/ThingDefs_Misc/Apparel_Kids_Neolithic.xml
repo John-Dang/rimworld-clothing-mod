@@ -178,7 +178,7 @@
           <layer>83</layer>
         </defaultData>
       </drawData>
-      <layers>
+      <layers Inherit="False">
         <li>Shell</li>
       </layers>
       <defaultOutfitTags>
